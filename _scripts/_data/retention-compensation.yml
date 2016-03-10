@@ -1,0 +1,11 @@
+item:
+  - nav: Introduction
+    content: Unfinished section
+    display: block
+  - nav: Testing Data Bind
+    content: Testing these words
+    display: none
+
+citation:
+  - source: Check
+  - source: Check 2

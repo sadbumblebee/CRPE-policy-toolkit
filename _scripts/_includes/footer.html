@@ -1,0 +1,25 @@
+<footer class="footer" style="background-color: #CCCCCC">
+  <div class="container is-text-centered">
+    <div class="content">
+      <p>
+          <strong> School Leadership Policy Toolkit </strong>&copy; 2016</br> Sponsored by Center on Reinventing Public Education &amp; Thomas B. Fordham Institute
+      </p>
+    </div>
+  </div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 650, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+</script>
+</footer>

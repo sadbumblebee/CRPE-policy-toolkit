@@ -1,0 +1,44 @@
+<section id="top" class="hero is-left is-info is-bold">
+<div class="hero-header">
+  <header class="header">
+    <div class="container">
+      <div class="header-left">
+        <a class="header-item" href="{{ site.url }}">
+          <h1 class="title">School Leadership Policy Toolkit</h1>
+        </a>
+      </div>
+      <div class="header-right">
+        <a class="header-item">
+          <span class="icon"><i class="fa fa-twitter"></i></span>
+        </a>
+        <a class="header-item">
+          <span class="icon"><i class="fa fa-facebook"></i></span>
+        </a>
+        <a class="header-item">
+          <span class="icon"><i class="fa fa-linkedin"></i></span>
+        </a>
+      </div>
+    </div>
+  </header>
+</div>
+
+<div class="hero-content">
+</div>
+
+<div class="hero-footer">
+  <nav class="tabs is-left is-boxed">
+    <div class="container">
+      <ul>
+        {% assign pages_list = site.pages | sort: 'order' %}
+        {% for node in pages_list %}
+          {% if node.title != null %}
+            {% if node.layout == "page" %}
+              <li class="{% if page.url == node.url %}is-active{% endif %}"><a href="{{ node.url }}">{{ node.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+    </ul>
+    </div>
+  </nav>
+</div>
+</section>

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<style>
+#displayContent {
+  display: block;
+}
+</style>
+
+<section class="content-tabs section">
+<div class="container">
+  <div class="columns">
+      <div class="column is-3">
+        <nav class="content-tabs__menu menu">
+          <p class="menu-heading">
+            Topics
+          </p>
+          {% for item in site.data[page.datasrc]item %}
+          <a class="content-tabs__menu__item menu-block" id="{{ item.nav | slugify }}">{{ item.nav }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+      <div class="column is-warning">
+        <nav class="menu column">
+            <div class="content">
+              <h1 class="title is-3">{{ page.title }}</h1>
+                <div class="content-tabs__tabs" id="displayContent">
+                  {% for item in site.data[page.datasrc]item %}
+                    <div class="content-tabs__tabs__tab" style="display:{{ item.display }}" id="{{ item.nav | slugify }}__content">{{ item.content }}</div>
+                  {% endfor %}
+                </div>
+            </div>
+        </nav>
+      </div>
+  </div>
+</div>
+</section>
+<section class="hero is-warning is-left">
+  <div class="hero-content">
+    <div class="container">
+      <h1 class="title is-4">
+        Sources &amp; Additional Resources
+      </h1>
+      <h2 class="subtitle is-5">
+        {% for citation in site.data[page.datasrc]citation %}
+        <div style="font-size: 14px;">{{ citation.source }}</div>
+        {% endfor %}
+      </h2>
+    </div>
+  </div>
+</section>
+
+<script type="text/javascript">
+$('.content-tabs__menu__item').on('click', function (event) {
+  event.preventDefault();
+  $('.content-tabs__tabs__tab').hide();
+  $('#' + event.target.id + '__content').show();
+});
+</script>
