@@ -8,13 +8,15 @@ layout: default
 </style>
 
 <section class="content-tabs section">
+<div class="container breadcrumbs"><a href="http://schoolleadershippolicytoolkit.com/">Home</a> . <a href="{{site.url}}/{{page.permalink}}">{{ page.title }}</a></div>
 <div class="container">
+
   <div class="columns">
       <div class="column is-3">
         <nav class="content-tabs__menu menu">
-          <p class="menu-heading">
+          <!-- <p class="menu-heading">
             Topics
-          </p>
+          </p> -->
           {% for item in site.data[page.datasrc]item %}
           <a class="content-tabs__menu__item menu-block" id="{{ item.nav | slugify }}">{{ item.nav }}</a>
           {% endfor %}
@@ -43,7 +45,7 @@ layout: default
       </h1>
       <h2 class="subtitle is-5">
         {% for citation in site.data[page.datasrc]citation %}
-        <div style="font-size: 14px;">{{ citation.source }}</div>
+        <div style="font-size: 14px; padding-top: 10px;">{{ citation.source }}</div>
         {% endfor %}
       </h2>
     </div>

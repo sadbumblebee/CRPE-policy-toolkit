@@ -8,6 +8,37 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   background: transparent;
 }
 
+.breadcrumbs {
+  margin-bottom: 14px !important;
+  font-size: 12px;
+  color: #42afe3;
+}
+
+.table-data {
+  color: #69707a !important;
+}
+
+.content ol ol {
+	list-style: lower-alpha;
+	margin-left: 1.25em;
+}
+.content ol ol ol {
+	list-style: lower-roman;
+	margin-left: 2.5em;
+}
+.content ol ol ol ol {
+	list-style: decimal;
+}
+.content li {
+	padding-left: 2em;
+}
+.content li li {
+	padding-left: .4em;
+}
+.content li li li {
+	padding-left: 0;
+}
+
 article, aside, figure, footer, header, nav, section, details, summary {
   display: block;
 }
@@ -398,8 +429,9 @@ table th {
 }
 
 .content ol {
-  list-style: decimal outside;
-  margin: 1em 2em;
+	list-style: upper-roman;
+	margin-left: 2.25em;
+	padding: 0;
 }
 
 .content ul {
@@ -3470,7 +3502,7 @@ table th {
 }
 
 .table.is-striped tbody tr:nth-child(2n) {
-  background: rgba(245, 247, 250, 0.5);
+  background: rgba(245, 247, 250, 1);
 }
 
 .table.is-striped tbody tr:nth-child(2n):hover {
@@ -3530,6 +3562,7 @@ table th {
 .tabs.is-centered a {
   padding: 5px 10px;
 }
+
 
 .tabs.is-centered li + li {
   margin-left: 0;
