@@ -351,3 +351,27 @@ datasrc: documents
     </div>
   </div>
 </div>
+
+<div class="columns">
+  <div class="column is-half">
+      <div class="box">
+      <article class="media">
+        <div class="media-left">
+          <a href="{{site.url}}/docs/Principal-Evaluation-Model-Policy.pdf" target="_blank">
+          <span class="icon is-large">
+            <i class="fa fa-file-pdf-o fa-5x"></i>
+          </span>
+          </a>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>Principal Evaluation Model Policy</strong>
+            </p>
+          </div>
+
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
