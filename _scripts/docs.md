@@ -9,7 +9,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Autonomy-Empowerment-Advocacy.pdf">
+          <a href="{{site.url}}/docs/Autonomy-Empowerment-Advocacy.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -30,7 +30,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Autonomy-Empowerment-Research-Review.pdf">
+          <a href="{{site.url}}/docs/Autonomy-Empowerment-Research-Review.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -54,7 +54,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Distributed-Leadership-Advocacy.pdf">
+          <a href="{{site.url}}/docs/Distributed-Leadership-Advocacy.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -75,7 +75,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Distributed-Leadership-Model-Policy.pdf">
+          <a href="{{site.url}}/docs/Distributed-Leadership-Model-Policy.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -99,7 +99,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Distributed-Leadership-Research-Review.pdf">
+          <a href="{{site.url}}/docs/Distributed-Leadership-Research-Review.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -119,7 +119,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Evolving-Role-Of-Principal.pdf">
+          <a href="{{site.url}}/docs/Evolving-Role-Of-Principal.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -142,7 +142,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/FAQ Leadership Policy Toolkit.pdf">
+          <a href="{{site.url}}/docs/FAQ Leadership Policy Toolkit.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -162,7 +162,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Pathways-Pipelines-Advocacy.pdf">
+          <a href="{{site.url}}/docs/Pathways-Pipelines-Advocacy.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -185,7 +185,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Pathways-Pipelines-Model-Policy.pdf">
+          <a href="{{site.url}}/docs/Pathways-Pipelines-Model-Policy.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -205,7 +205,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Pathways-Pipelines-Research-Review.pdf">
+          <a href="{{site.url}}/docs/Pathways-Pipelines-Research-Review.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -228,7 +228,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Principal-Evaluation-Advocacy.pdf">
+          <a href="{{site.url}}/docs/Principal-Evaluation-Advocacy.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -248,7 +248,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Principal-Evaluation-Research-Review.pdf">
+          <a href="{{site.url}}/docs/Principal-Evaluation-Research-Review.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -271,7 +271,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Principal-Retention-Advocacy.pdf">
+          <a href="{{site.url}}/docs/Principal-Retention-Advocacy.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -291,7 +291,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Principal-Retention-Model-Policy.pdf">
+          <a href="{{site.url}}/docs/Principal-Retention-Model-Policy.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -314,7 +314,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Principal-Retention-Research-Review.pdf">
+          <a href="{{site.url}}/docs/Principal-Retention-Research-Review.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
@@ -334,7 +334,7 @@ datasrc: documents
       <div class="box">
       <article class="media">
         <div class="media-left">
-          <a href="{{site.url}}/docs/Statewide-Strategy-Guide.pdf">
+          <a href="{{site.url}}/docs/Statewide-Strategy-Guide.pdf" target="_blank">
           <span class="icon is-large">
             <i class="fa fa-file-pdf-o fa-5x"></i>
           </span>
